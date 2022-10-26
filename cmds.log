@@ -1,0 +1,1000 @@
+   25  cd /home/test/A1/downloaded_hashtags_extend.csv test_a1
+   26  cd -r /home/test/A1/downloaded_hashtags_extend.csv test_a1
+   27  cp -r /home/test/A1/downloaded_hashtags_extend.csv test_a1
+   28  ls
+   29  cd test_a1
+   30  head test_a1
+   31  wc test_a1
+   32  stat test_a1
+   33  grep -c "Great" test_a1
+   34  grep -h "Great" test_a1
+   35  grep -c "Great" test_a1
+   36  grep -c "great" test_a1
+   37  grep -c "GREAT" test_a1
+   38  grep -c "Great" test_a1
+   39  grep -c "great" test_a1
+   40  file test_a1
+   41  konwert utf8-ascii
+   42  iconv -f utf-8 -t ascii//TRANSLIT
+   43  file test_a1
+   44  iconv -f utf-8 -t ascii//TRANSLIT test_a1
+   45  file test_a1
+   46  head test_a1
+   47  uniqu cut
+   48  uniq cut
+   49  awk '{print $5}' test_a1 | sort | uniq
+   50  awk '{print}' test_a1 | sort | uniq
+   51  awk '{$1}' test_a1 | sort | uniq
+   52  awk '{print $1}' test_a1 | sort | uniq
+   53  awk '{print $0}' test_a1 | sort | uniq
+   54  uniq -c test_a1
+   55  wc test_a1
+   56  wc awk '{print}' test_a1
+   57  awk '{print $0}'
+   58  awk '{print $0}' test_a1
+   59  awk '{$0}' test_a1
+   60  awk '{print $1}' test_a1
+   61  awk '{print $2}' test_a1
+   62  awk '{print $0}' test_a1
+   63  ls -l | awk '{print $1}'
+   64  awk "," '{print $1}' test_a1
+   65  awk -F "," '{print $1}' test_a1
+   66  uniq awk -F "," '{print $1}' test_a1
+   67  cut -d ',' test_a1 | sort |
+   68  awk -F "," '{print $1}' test_a1 | sort | uniq
+   69  awk -F "," '{print $1}' test_a1 | uniq
+   70  awk -F "," '{print $1}' test_a1 | uniq | sort
+   71  wc awk -F "," '{print $1}' test_a1 | uniq | sort
+   72  awk -F "," '{print $1}' test_a1 | uniq | sort
+   73  awk -F "," '{print $1}' test_a1 | uniq | sort | wc
+   74  awk -F "," '{print $1}' test_a1 | uniq | wc
+   75  awk -F "," '{print $1}' test_a1 | wc
+   76  awk -F "," '{print $1}' test_a1 | sort | uniq | wc
+   77  awk -F "," '{print $1}' test_a1 | sort | uniq
+   78  awk -F "," '{print $1}' test_a1 | sort | uniq | wc
+   79  awk -F "," '{print $NF}' test_a1 | sort | uniq | wc
+   80  awk -F "," '{print $(NF)}' test_a1 | sort | uniq | wc
+   81  awk -F "," '{print $2}' test_a1 | sort | uniq | wc
+   82  cd ..
+   83  script a1.txt
+   84  cat a1.txt
+   85  more a1.txt
+   86  man a1.txt
+   87  more a1.txt
+   88  clear
+   89  cat a1.txt
+   90  vi a1.txt
+   91  nano a1.txt
+   92  ls
+   93  cat a1c.txt
+   94  mkdir a1t
+   95  mv a1c.txt
+   96  mv a1c.txt a1t
+   97  cd a1t
+   98  git clone https://github.com/alenba2/cs131-a1.git
+   99  git add *
+  100  git status
+  101  git init
+  102  git status
+  103  rm cs131-a1
+  104  ls
+  105  cd..
+  106  cd ..
+  107  cd a1t
+  108  mv a1c.txt ..
+  109  cd ..
+  110  mkdir a12
+  111  mv a1c.txt
+  112  ls
+  113  mv a1c.txt a12
+  114  cd a12
+  115  git init
+  116  git status
+  117  git add *
+  118  git commit -m 'add script'
+  119  git remote add origin https://github.com/alenba2/cs131-a1.git
+  120  git push -u origin main
+  121  git status
+  122  git push -u origin master
+  123  ls
+  124  head 1 amazon_reviews_us_Books_v1_02.tsv
+  125  head amazon_reviews_us_Books_v1_02.tsv 1
+  126  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  127  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+  128  ls
+  129  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  130  cut -f 4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  131  history > cmds.log
+  132  cat amazon_reviews_us_Books_v1_02.tsv
+  133  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 
+  134  clear
+  135  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 
+  136  clear
+  137  head -n 3 | e
+  138  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 
+  139  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 | cut -f 2
+  140  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 | cut -f 1
+  141  cat amazon_reviews_us_Books_v1_02.tsv | sort | cut -f 1 | head -n 3
+  142  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 1 | sort | head -n 3
+  143  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 1 | sort | uniq -c | head -n 3
+  144  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | head -n 3
+  145  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 3
+  146  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n -1+3
+  147  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -1+3
+  148  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail +1 -n 
+  149  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 
+  150  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 3
+  151  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 
+  152  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 5
+  153  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | sort | tail -n 5
+  154  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -r | uniq -c | head -n 3
+  155  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -n | uniq -c | head -n 3
+  156  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -n | uniq -c | tail -n 3
+  157  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -nr | uniq -c | head -n 3
+  158  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head -n 3
+  159  sort amazon_reviews_us_Books_v1_02.tsv | uniq -c | head -n 3
+  160  sort amazon_reviews_us_Books_v1_02.tsv | uniq -c | cut -f 2 | head -n 3
+  161  sort amazon_reviews_us_Books_v1_02.tsv | uniq -c | cut -f 2 | tail -n 3
+  162  sort amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | uniq -c | tail -n 3
+  163  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c
+  164  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort
+  165  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n
+  166  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  167  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  168  cut -f 4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  169  script ws3.txt
+  170  ls
+  171  cut -d "   " -f 1 amazon_reviews_us_Books_v1_02.tsv
+  172  cut -d " " -f 1 amazon_reviews_us_Books_v1_02.tsv
+  173  ls
+  174  rm test_a1
+  175  delete test_a1
+  176  cd A1
+  177  ls
+  178  rm twitter.csv
+  179  ls
+  180  cd ..
+  181  cd test_a1
+  182  ls
+  183  rm test_a1
+  184  ls
+  185  cd ..
+  186  status allen
+  187  rmdir A1
+  188  rm -R A1
+  189  ls
+  190  rm -R test_a1
+  191  cd test_a1
+  192  cd temp2
+  193  ls
+  194  cd ..
+  195  rm -r temp2
+  196  cd ..
+  197  ls
+  198  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  199  cut -d " " -f 2 amazon_reviews_us_Books_v1_02.tsv
+  200  ls
+  201  mkdir ws3
+  202  mv ws3.txt
+  203  ls
+  204  mv ws3.txt
+  205  mv cmds.log
+  206  mv ws3.txt ws3
+  207  mv cmds.log ws3
+  208  cd ws3
+  209  git init
+  210  git add *
+  211  git commit -m 'ws3'
+  212  git remote add origin https://github.com/alenba2/CS-131-ws3.git
+  213  git push -u origin master
+  214  ls
+  215  cd test_a1
+  216  ls
+  217  cd ..
+  218  /home/test/A1/downloaded_hashtags_extend.csv
+  219  cd a12
+  220  ls
+  221  cd ..
+  222  /home/test/A1/downloaded_tweets_extend_nolf.txt
+  223  downloaded_tweets_extend_nolf.txt
+  224  cp downloaded_tweets_extend_nolf.txt
+  225  cp /home/test/A1/downloaded_tweets_extend_nolf.txt
+  226  wget /home/test/A1/downloaded_tweets_extend_nolf.txt
+  227  wget /home/test/A1:
+  228  downloaded_tweets_extend_original_nolf2.tsv
+  229  wget /home/test/A1:
+  230  downloaded_tweets_extend_original_nolf2.tsv
+  231  cp /home/test/A1downloaded_tweets_extend_nolf2.tsv
+  232  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv
+  233  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv tweets.tsv
+  234  ls
+  235  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv orig_tweets.tsv
+  236  ls
+  237  vi tweets.tsv
+  238  head -n 1 tweets.tsv
+  239  head -n 2 tweets.tsv
+  240  head -n 1 orig_tweets.tsv
+  241  head -n 2 orig_tweets.tsv
+  242  alias l='ls -latr'
+  243  alias w='ls -la | wc'
+  244  vi .bashrc
+  245  mkdir CUSTOMERS
+  246  mkdir PRODUCTS
+  247  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > CUSTOMERS/12076615.txt
+  248  egrep 12703090 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > CUSTOMERS/12703090.txt
+  249  egrep 12257412 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > CUSTOMERS/12257412.txt
+  250  cd CUSTOMERS
+  251  ls
+  252  cd ..
+  253  egrep 0385730586 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > PRODUCTS/0385730586.txt
+  254  egrep 0811828964 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > PRODUCTS/0811828964.txt
+  255  egrep 1844161560 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > PRODUCTS/1844161560.txt
+  256  paste CUSTOMERS/12076615.txt CUSTOMERS/12703090.txt CUSTOMERS/12257412.txt PRODUCTS/0385730586.txt PRODUCTS/0811828964.txt PRODUCTS/1844161560.txt |  awk '{s+=$1}END{print "ave:",s/NR}
+  257  paste CUSTOMERS/12076615.txt CUSTOMERS/12703090.txt CUSTOMERS/12257412.txt PRODUCTS/0385730586.txt PRODUCTS/0811828964.txt PRODUCTS/1844161560.txt |  awk '{s+=$1}END{print "ave:",s/NR}'
+  258  history > cmds.log
+  259  vi README
+  260  mkdir cust
+  261  mkdir prod
+  262  alias l = 'ls -latr'
+  263  alias l='ls -latr'
+  264  alias w='ls -la | wc'
+  265  l
+  266  w
+  267  w hello
+  268  ls
+  269  head -n 4 amazon_reviews_us_Books_v1_02.tsv
+  270  head -n 4 amazon_reviews_us_Books_v1_02.tsv $3
+  271  ls -l | awk '{ print $1 }' | head -n 3
+  272  ls -l | awk '{ print $2 }' | head -n 3
+  273  ls -l | awk '{ print $3 }' | head -n 3
+  274  ls -l | awk '{ print $4 }' | head -n 3
+  275  awk '{ print $4 }' amazon_reviews_us_Books_v1_02.tsv | head -n 3
+  276  awk '{ print $4 }' amazon_reviews_us_Books_v1_02.tsv | head -n 4
+  277  awk '{ print $1 }' amazon_reviews_us_Books_v1_02.tsv | head -n 4
+  278  awk '{ print $2 }' amazon_reviews_us_Books_v1_02.tsv | head -n 4
+  279  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  280  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv
+  281  egrep 12703090 amazon_reviews_us_Books_v1_02.tsv
+  282  fgrep -x 12076615 amazon_reviews_us_Books_v1_02.tsv
+  283  fgrep -h 12076615 amazon_reviews_us_Books_v1_02.tsv
+  284  fgrep -h 12076615 amazon_reviews_us_Books_v1_02.tsv | cut 4
+  285  fgrep -h 12076615 amazon_reviews_us_Books_v1_02.tsv | cut $4
+  286  fgrep -h 12076615 amazon_reviews_us_Books_v1_02.tsv 
+  287  egrep -h 12076615 amazon_reviews_us_Books_v1_02.tsv 
+  288  grep amazon_reviews_us_Books_v1_02.tsv 12076615
+  289  grep 12076615 amazon_reviews_us_Books_v1_02.tsv
+  290  grep 0385730586 amazon_reviews_us_Books_v1_02.tsv
+  291  ls
+  292  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv
+  293  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv | cut -f 5
+  294  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  295  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  296  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > test.txt
+  297  vi test.txt
+  298  ls
+  299  vi test.txt
+  300  vi test2.txt
+  301  \n
+  302  ls
+  303  {s+=$1}END{print "ave:",s/NR}' RS=" " test.txt
+  304  :q
+  305  {s+=$1}END{print "ave:",s/NR}' test.txt
+  306  awk {s+=$1}END{print "ave:",s/NR}' test.txt
+  307  awk '{s+=$1}END{print "ave:",s/NR}' test.txt
+  308  vi test.txt
+  309  paste test2.txt test.txt |  awk '{s+=$1}END{print "ave:",s/NR}' test.txt | bc
+  310  paste test2.txt test.txt |  awk '{s+=$1}END{print "ave:",s/NR}' test.txt
+  311  paste test2.txt test.txt |  awk '{s+=$1}END{print "ave:",s/NR}' 
+  312  paste test2.txt test.txt |  awk '{s+=$1}END{print "ave:",s/NR}' | bc
+  313  paste test2.txt test.txt |  awk '{s+=$1}END{print "ave:",s/NR}'
+  314  paste test2.txt test.txt |  awk '{s+=$1}END{print,s/NR}'
+  315  paste test2.txt test.txt |  awk '{s+=$1}END{s/NR}'
+  316  paste test2.txt test.txt |  awk '{s+=$1}END{s/NR}' 
+  317  paste test2.txt test.txt |  awk '{s+=$1}END{s/NR}' 
+  318  paste test2.txt test.txt |  awk '{s+=$1}END{print,s/NR}'
+  319  paste test2.txt test.txt |  awk '{s+=$1}END{print "ave:",s/NR}'
+  320  script ws4.txt
+  321  ls
+  322  mkdir ws4
+  323  mv README
+  324  mv README ws4
+  325  mv ws4.txt
+  326  mv ws4.txt ws4
+  327  mv cmds.log ws4
+  328  ls
+  329  cd ws4
+  330  git init
+  331  git status
+  332  git add *
+  333  git commit -m 'ws4 done'
+  334  git push origin main
+  335  git push origin master
+  336  git remote add origin https://github.com/alenba2/ws4.git
+  337  git push origin master
+  338  logout
+  339  awk -F"\t" '{print $6}' Orig_Tweets_NotBot.tsv > Orig_Replies.tsv
+  340  sort Orig_Replies.tsv | uniq -c | sort -nr -k 1 | head -11
+  341  awk -F"\t" '($6 != NULL){print $6}' Orig_Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -10
+  342  awk -F"\t" '($6 != NULL){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  343  awk -F"\t" '{print $2}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -10
+  344  awk -F"\t" '($4 != Null){print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  345  awk -F"\t" '($4 != Null){print toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  346  awk -F"\t" '($4 != Null){print $2,toupper($4)}' Tweets_NotBot.tsv | s
+  347  awk -F"\t" '($4 != Null && $6 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  348  awk -F"\t" '($4 != Null){print toupper($4)}' Tweets_NotBot.tsv > toUpper.tsv
+  349  grep ""\" toUpper.tsv | sort | uniq -c | sort -nr -k 1 | head -30
+  350  ls
+  351  rm test2.txt
+  352  rm test.txt
+  353  ls
+  354  awk -F"\t" '($2 != $6) {print $0}' tweets.tsv > Tweets_NotBot.tsv
+  355  awk -F"\t" 
+  356  ls
+  357  wc -l Tweets_NotBot.tsv
+  358  wc -l Orig_Tweets_NotBot.tsv
+  359  awk -F"\t" '{print $6}' Orig_tweets_NotBot.tsv | sort
+  360  awk -F"\t" '{print $6}' Orig_Tweets_NotBot.tsv | sort
+  361  awk -F"\t" '{print $6}' Orig_Tweets_NotBot.tsv | sort | uniq | wc
+  362  awk -F"\t" '{print $6}' Orig_Tweets_NotBot.tsv | sort
+  363  sort Replies.tsv | uniq | wc
+  364  sort Replies.tsv | uniq -c
+  365  sort Replies.tsv | uniq -c | sort
+  366  sort Replies.tsv | uniq -c | wc
+  367  sort Replies.tsv | uniq -c | sort -nr -k 1
+  368  sort Replies.tsv | uniq -c | sort -nr -k 1 | head -10
+  369  sort Replies.tsv | uniq -c | sort -nr -k 1 | head -11
+  370  awk -F"\t" '{print $6}' Orig_Tweets_NotBot.tsv | uniq -c | sort -nr -k 1 | head -11
+  371  awk -F"\t" '{print $2}' Orig_Tweets_NotBot.tsv
+  372  clear
+  373  awk -F"\t" '{print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  374  awk -F"\t" '($6 != Null){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  375  awk -F"\t" '{print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  376  awk -F"\t" '($6 != Null){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  377  awk -F"\t" '($6 != \0){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  378  awk -F"\t" '($6 != "NULL"){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  379  awk -F"\t" '($6 != NULL){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -11
+  380  awk -F"\t" '($6 != NULL){print $2}' Orig_Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -10
+  381  awk -F"\t" '($6 != NULL){print $6}' Orig_Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -11
+  382  awk -F"\t" '{print $2}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -11
+  383  awk -F"\t" '{print $2}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -10
+  384  awk -F"\t" '{print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  385  awk -F"\t" '($4 != Null){print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  386  awk -F"\t" '($4 != Null && tolower($4) == tolower($4)){print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  387  awk -F"\t" '($4 != Null && toupper($4)==toupper($4)){print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  388  awk -F"\t" '($4 != Null){print $4}' Tweets_NotBot.tsv > hastags.tsv
+  389  awk '{ print toupper($0) }' hastags.tsv
+  390  awk '{ print toupper($0) }' hastags.tsv > Upper.tsv
+  391  sort Upper.tsv| sort |  uniq -c | sort -nr -k 1 | head -30
+  392  clear
+  393  sort Upper.tsv| sort |  uniq -c | sort -nr -k 1 | head -30
+  394  clear
+  395  awk -F"\t" '($4 != Null){print $2,toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  396  awk -F"\t" '($4 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  397  awk -F"\t" '($4 != Null){print $2,toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  398  awk -F"\t" '($4 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort 
+  399  awk -F"\t" '($4 != Null && $2 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort 
+  400  awk -F"\t" '($4 != Null && $2 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort | head -10
+  401  awk -F"\t" '($4 != Null && $2 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -30
+  402  awk -F"\t" '($4 != Null){print $2,toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 
+  403  awk -F"\t" '($4 != Null && $2 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort | uniq -c | sort -nr -k 1 | head -30
+  404  awk -F"\t" '($4 != Null && $2 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort | head -30
+  405  awk -F"\t" '($4 != Null && $6 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort | head -30
+  406  awk -F"\t" '($4 != Null && $6 != Null){print $6,toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  407  awk -F"\t" '/"\"\""' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  408  awk -F"\t" '/\""\""' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  409  awk -F"\t" '/' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  410  awk -F"\t" '/\""$4"\""' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  411  awk -F"\t" '/"\"$4"\""' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  412  awk -F"\t" '"\"$4"\""' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  413  awk -F"\t" '"\"$4"\"' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30
+  414  grep "" Upper.tsv 
+  415  grep """/" Upper.tsv 
+  416  grep ""/"" Upper.tsv 
+  417  grep "'/'" Upper.tsv 
+  418  grep "'""'" Upper.tsv 
+  419  grep "'"'" Upper.tsv 
+  420  grep "\42" Upper.tsv 
+  421  grep "\34" Upper.tsv 
+  422  grep ".34" Upper.tsv 
+  423  grep "/34" Upper.tsv 
+  424  grep """ Upper.tsv 
+  425  grep "" Upper.tsv 
+  426  grep "" Upper.tsv | head -30
+  427  grep ""\" Upper.tsv | head -30
+  428  grep ""\" Upper.tsv | sort | uniq -c | sort -nr -k 1 | head -30
+  429  head -1 tweets.tsv
+  430  ls
+  431  head -1 orig_tweets.tsv
+  432  ls
+  433  script a2.txt
+  434  rm a2.txt
+  435  script a2.txt
+  436  vi a2.txt
+  437  less a2.txt
+  438  nano a2.txt
+  439  mkdir a2
+  440  mv a2.txt
+  441  mv a2.txt a2
+  442  cd a2
+  443  ls
+  444  git init
+  445  git add *
+  446  git commit -m "a2.txt"
+  447  git remote add origin https://github.com/alenba2/cs-131-assignment-2.git
+  448  git push origin master
+  449  jdksjd
+  450  j
+  451  tmux new-session -s A3
+  452  tmux new-session -s homework
+  453  tmux homework
+  454  tmux new-session -s homework
+  455  tmux -l homework
+  456  tmux has-session -t homework
+  457  tmux new-session -s assignment 3
+  458  tmux new-session -s assignment3
+  459  tmux attach -t homework
+  460  mkdir a3
+  461  awk -F"\t"  '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort > a3/User_Reply.txt
+  462  cd a3
+  463  awk -F"\t"  '( $1 != $2 ) {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 > Counted_Users.txt
+  464  awk -F"\t"  '( $1 != $2 ) {print $0}' User_Reply.txt > User_Reply_NoBot.txt
+  465  ls
+  466  cd src
+  467  ls
+  468  plot filename.svg
+  469  /etc/gnuplot-5.4.4/src/gnuplot
+  470  cd src
+  471  /etc/gnuplot-5.4.4/src/gnuplot
+  472  export DISPLAY:=0.0
+  473  ls
+  474  cd src
+  475  cd ..
+  476  cd src
+  477  pwd
+  478  cd ..
+  479  cd src
+  480  ls
+  481  get filename.svg
+  482  wget filename.svg
+  483  get
+  484  ls
+  485  cd ..
+  486  tmux attach -t homework
+  487  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Orig_Tweets2.tsv > a3/Orig_Tweets_ReplyNoBots.tsv
+  488  cd a3
+  489  awk -F"\t" '{print $0}' Orig_Tweets_ReplyNoBots.tsv | sort > Orig_Tweets_Sorted.tsv
+  490  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 > Counted_Tweets.tsv
+  491  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets.tsv > Limit_Count.tsv
+  492  awk -F" " '( $1 == 3 ){print $0}' Limit_Count.tsv | wc -l > HistogramSetup.txt
+  493  awk -F" " '( $1 == 4 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  494  awk -F" " '( $1 == 5 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  495  awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  496  nano HistogramSetup.txt
+  497  cd ..
+  498  cd src
+  499  cp ../a3/HistogramSetup.txt HistoSetup.txt
+  500  /etc/gnuplot-5.4.4/src/gnuplot
+  501  cd ..
+  502  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort | head -30 > Top3
+  503  s
+  504  ls
+  505  nano Top3
+  506  awk -F"\t"  '( $6 != Null) {print $4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort | head -5
+  507  awk -F"\t"  '( $6 != Null) {print $4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort | head -6
+  508  awk -F"\t"  '( $6 != Null) {print $4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort | sort |head -6
+  509  awk -F"\t"  '( $6 != Null) {print $4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort | sort | tail -6
+  510  awk -F"\t"  '( $6 != Null) {print $4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | ort -nr -k 1 | head -5
+  511  awk -F"\t"  '( $6 != Null) {print $4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 | head -5
+  512  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 | head -5
+  513  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 | head -30
+  514  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 | head -30 > Top30.txt
+  515  awk '($4 != Null){print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30 > CompareText.txt 
+  516  awk -F"\t" '($4 != Null){print toupper($4)}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30 > Compare2.txt
+  517  nano Compare2.txt
+  518  awk -F" "  '{print toupper($3)}' Top30.txt > A3Upper.txt
+  519  awk -F" "  '{print $2}' Compare2.txt > A2Upper.txt
+  520  diff A3Upper.txt A2Upper.txt
+  521  /etc/gnuplot-5.4.4/src/gnuplot
+  522  awk -F"\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort |  uniq -c | sort -nr -k 1 | head -100 > 100Reviewers.txt
+  523  ls
+  524  awk -F" " '{print$2}' 100Reviewers.txt > 100Reviewers.txt
+  525  awk -F"\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort |  uniq -c | sort -nr -k 1 | head -100 > Counted_Reviewers.txt
+  526  awk -F"\t" '{print $2}' Counted_Reviewers.txt > 100Reviewers.txt
+  527  awk -F" " '{print $2}' Counted_Reviewers.txt > 100Reviewers.txt
+  528  awk -F"\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort |  uniq -c | sort -nr -k 1 | head -1000 > Counted_Reviewers.txt
+  529  awk -F"\t" '{print $2}' Counted_Reviewers.txt > 1000Reviewers.txt
+  530  awk -F" " '{print $2}' Counted_Reviewers.txt > 1000Reviewers.txt
+  531  nano Review_Script.txt
+  532  mv Review_Script.sh
+  533  mv Review_Script.txt Review_Script.sh
+  534  chmod u+x Review_Script.sh
+  535  ./Review_Script.sh
+  536  history > cmds.log
+  537  script ws5.txt
+  538  ls
+  539  rm Compare.txt 12076615.txt 31048862.txt
+  540  ls
+  541  clear
+  542  script ws5
+  543  rm ws5
+  544  clear
+  545  script ws5.txt
+  546  rm ws5.txt
+  547  clear
+  548  script ws5.txt
+  549  rm ws5.txt
+  550  script ws5.txt
+  551  mkdir ws5
+  552  mv ws5.txt ws5
+  553  mv cmds.log
+  554  mv cmds.log ws5
+  555  cd ws5
+  556  ls
+  557  nano ws5.txt
+  558  git init
+  559  git add *
+  560  git commit -m 'ws5'
+  561  git remote add origin https://github.com/alenba2/CS-131-WS5.git
+  562  git push -u origin master
+  563  ls
+  564  rm Compare2.txt CompareText.txt A3Upper.txt A2Upper.txt
+  565  ls
+  566  clear 
+  567  ls
+  568  rm a1.txt Upper.tsv tweets.tsv toUpper.tsv Top30.txt
+  569  ls
+  570  clear
+  571  ls
+  572  rm Orig_Replies.tsv Orig_Tweets_NotBot.tsv Replies.tsv Tweets_NotBot.tsv
+  573  ls
+  574  rm hastags.tsv
+  575  ls
+  576  rm orig_tweets.tsv
+  577  clear
+  578  ls
+  579  script ws5
+  580  rm ws5
+  581  clear
+  582  mkdir CUSTOMERS
+  583  ls
+  584  clear
+  585  ls
+  586  head -1 amazon_reviews_us_Books_v1_02.tsv
+  587  awk -F"\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort |  uniq -c | sort -nr -k 1 | head -3
+  588  clear
+  589  ls
+  590  nano test
+  591  ls
+  592  ./test
+  593  mv test test.sh
+  594  ./test.sh
+  595  vi test
+  596  ls
+  597  clear
+  598  ls
+  599  nano test.sh
+  600  chmod u+x test.sh
+  601  ./test.sh
+  602  nano test.sh
+  603  ./test.sh
+  604  nano 100Reviewers.txt
+  605  ls
+  606  nano 100Reviewers.txt
+  607  nano Counted_Reviewers.txt
+  608  nano 100Reviewers.txt
+  609  awk -F" " '{print $2}' Counted_Reviewers.txt > test_100Reviewers.txt
+  610  nano test_100Reviewers.txt
+  611  nano 100Reviewers.txt
+  612  nano test.sh
+  613  ./test.sh
+  614  nano test.sh
+  615  ./test.sh
+  616  nano test.sh
+  617  ./test.sh
+  618  nano test.sh
+  619  ./test.sh
+  620  nano test.sh
+  621  ./test.sh
+  622  ls
+  623  rm ReviewerList
+  624  nano test.sh
+  625  ./test.sh
+  626  ls
+  627  nano test.sh
+  628  ./test.sh
+  629  nano test.sh
+  630  ./test.sh
+  631  nano test.sh
+  632  ./test.sh
+  633  nano test.sh
+  634  ./test.sh
+  635  nano test.sh
+  636  ./test.sh
+  637  nano test.sh
+  638  ./test.sh
+  639  nano test.sh
+  640  ./test.sh
+  641  nano test.sh
+  642  ./test.sh
+  643  cd ..
+  644  cd ~
+  645  cd Products
+  646  cd PRODUCTS
+  647  ls
+  648  cd ..
+  649  clear
+  650  ls
+  651  nano test.sh
+  652  ls
+  653  nano 1000Reviewers.txt
+  654  tmux new-session w5
+  655  tmux new-session -s w5
+  656  tmux attach -t A3
+  657  tmux attach -t homework
+  658  get test1.svg
+  659  pwd
+  660  ls
+  661  script a3
+  662  nano a3
+  663  rm a3
+  664  ls
+  665  script a3.txt
+  666  cd ..
+  667  rm a3.txt
+  668  cd ~
+  669  rm a3
+  670  rm a3.txt
+  671  script a3.txt
+  672  mkdir a3submit
+  673  mv a3.txt a3submit
+  674  cd src
+  675  ls
+  676  mv HistogramOutput.svg ../a3submit
+  677  ls
+  678  cd ..
+  679  cd a3submit
+  680  ls
+  681  nano a3.txt
+  682  git init
+  683  git add *
+  684  git commit -m 'a3 submit' 
+  685  git remote add origin https://github.com/alenba2/cs-131-assignment3.git
+  686  git push orign master
+  687  git push orign main
+  688  git push orign master
+  689  git push -u origin master
+  690  ls
+  691  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv Orig_Tweets.tsv
+  692  ls
+  693  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv Tweets2.tsv
+  694  ls
+  695  mv Orig_Tweets.tsv Orig_Tweets2.tsv
+  696  ls
+  697  head -n 1 Orig_Tweets2.tsv
+  698  awk '{print}' Orig_Tweets2.tsv | head -n 1
+  699  awk '{print $2, $6}' Orig_Tweets2.tsv | head -n 1
+  700  awk '{print $2, $6}' Orig_Tweets2.tsv | sort | uniq -c | sort -nr -k 1 | head -10
+  701  awk '{print $2, $6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  702  awk '( $6 != Null) {print $2, $6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  703  awk '( $6 != Null) {print $6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  704  awk '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  705  awk '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | tail -10
+  706  head -n 1 Orig_Tweets2.tsv
+  707  awk '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | tail -10
+  708  awk '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  709  awk '( $6 != Null) {print $2,$7}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  710  awk -F"\t"  '( $6 != Null) {print $2,$7}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  711  awk -F"\t"  '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq | sort -nr -k 1 | head -10
+  712  awk -F"\t"  '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq |  head -10
+  713  awk -F"\t"  '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort |  head -10
+  714  awk -F"\t"  '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort
+  715  ls
+  716  cd a3
+  717  ls
+  718  cd ..
+  719  cd a3
+  720  awk -F"\t"  '( $1 != $2 ) {print}' User_Reply.txt | head -3
+  721  awk -F"\t"  '( $1 != $2 ) {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  722  awk -F"\t"  '( $1 != $2 ) {print $2}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  723  awk -F"\t"  '( $1 != $2 ) {print $2}' User_Reply.txt | sort | uniq -c |  head -n 3
+  724  awk -F"\t"  '( $1 != $2 ) {print $2}' User_Reply.txt | sort |   head -n 3
+  725  awk -F"\t"  '( $1 != $2 ) {print $2}' User_Reply.txt | sort |  head -n 3
+  726  awk -F"\t"  '( $1 != $2 ) {print $2}' User_Reply.txt | sort |  tail -n 3
+  727  awk -F"\t"  ' {print $2}' User_Reply.txt | sort |  tail -n 3
+  728  awk -F"\t"  ' {print $2}' User_Reply.txt | sort | head -n 3
+  729  awk -F"\t"  ' {print $2}' User_Reply.txt | sort | head -n 3ls
+  730  ls
+  731  head -3 User_Reply.txt
+  732  awk -F"\t"  ' {print $2}' User_Reply.txt | head -3
+  733  awk  '{print $2}' User_Reply.txt | head -3
+  734  awk  '{print $2}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  735  awk -F"\t"  '( $1 != $2 ) {print $2}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  736  awk -F"\t"  '( $1 != $2 ) {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  737  awk -F"\t"  '( $1 !== $2 ) {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  738  awk -F"\t"  '( $1 == $2 ) {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  739  awk -F"\t"  ' {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  740  awk -F"\t"  '( $2 != $1 ) {print $2, $1}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  741  awk -F"\t"  '( $2 != $1 ) {print 0}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  742  awk -F"\t"  '( $2 != $1 ) {print $0}' User_Reply.txt | sort | uniq -c | sort -nr -k 1 | head -n 3
+  743  awk -F"\t"  '( $1 != $2 ) {print $0}' User_Reply.txt | head -n 3
+  744  awk -F"\t"  '( $1 != $2 ) {print $0}' User_Reply_NoBot.txt | sort | uniq -c | sort -nr -k 1 | head -n 3 
+  745  cd ..
+  746  ls
+  747  awk -F"\t" '($2 != $6) {print $0}' Tweets2.tsv | wc
+  748  awk -F"\t" '($2 == $6) {print $0}' Tweets2.tsv | wc
+  749  awk -F"\t" '($2 == $6) {print $0}' Tweets2.tsv > Tweets2NoBot.tsv
+  750  rm Tweets2NoBot.tsv
+  751  awk -F"\t" '($2 != $6) {print $0}' Tweets2.tsv > Tweets2NoBot.tsv
+  752  awk -F"\t" '($2 != $6) {print $0}' Orig_Tweets2.tsv > Orig_Tweets2NoBot.tsv
+  753  awk -F"\t" '{print $2, $6}' Orig_Tweets2NoBot.tsv > a3/User_Reply.tsv
+  754  cd a3
+  755  ls
+  756  awk -F"\t"  ' {print $0}' User_Reply.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3 
+  757  awk -F"\t"  ' {print $1,$2}' User_Reply.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3 
+  758  awk -F"\t"  ' {print $2,$1}' User_Reply.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3 
+  759  awk -F"\t"  ' {print $2,$1}' User_Reply.tsv | sort | uniq -c | head -n 3 
+  760  awk -F"\t"  ' {print $1}' User_Reply.tsv | sort | uniq -c | head -n 3 
+  761  awk -F"\t"  ' {print $2}' User_Reply.tsv | sort | uniq -c | head -n 3 
+  762  rm User_Reply.tsv
+  763  cd ..
+  764  awk -F"\t" '($2 != $6) {print $0}' Orig_Tweets2.tsv | head -3
+  765  awk -F"\t" '($2 != $6) {print $2, $6}' Orig_Tweets2.tsv | head -3
+  766  awk -F"\t" '($2 != $6 | $6 != Null) {print $2, $6}' Orig_Tweets2.tsv | head -3
+  767  awk -F"\t" '($2 != $6 || $6 != Null) {print $2, $6}' Orig_Tweets2.tsv | head -3
+  768  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Orig_Tweets2.tsv | head -3
+  769  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Orig_Tweets2.tsv > a3/Orig_Tweet_ReplyNoBots.tsv
+  770  cd a3
+  771  ls
+  772  rm Orig_Tweet_ReplyNoBots.tsv
+  773  ls
+  774  awk -F"\t" '{print $2,$1}' Orig_Tweets_ReplyNoBots.tsv | sort | sort -nr -k 1 | head -10
+  775  ls
+  776  awk -F"\t" '{print $0}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -3
+  777  awk -F"\t" '{print $0}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -10
+  778  awk -F"\t" '{print $0}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -20
+  779  awk -F"\t" '{print $2,$1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -3
+  780  awk -F"\t" '{print $2,$1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  781  awk -F"\t" '{print $0}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  782  awk -F"\t" '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  783  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  784  awk -F" " '{print $1,$2}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  785  awk -F" " '{print $2,$1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  786  awk -F" " '{print $2}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -4
+  787  awk -F" " '{print $2}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -6
+  788  awk -F" " '{print $2}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -10
+  789  awk -F" " '{print $2}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -20
+  790  awk -F"\t" '{print $2, $1}' Orig_Tweets_ReplyNoBots.tsv | sort > Orig_Tweets_Sorted.tsv
+  791  awk -F" " '{print $2}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -20
+  792  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -20
+  793  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -35
+  794  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -36
+  795  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -37
+  796  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -
+  797  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -34
+  798  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | head -35
+  799  awk -F" " '{print $1}' Orig_Tweets_Sorted.tsv | uniq -c | sort -nr -k 1 | tail -1
+  800  ls
+  801  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets_Sorted.tsv | tail -1
+  802  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets.tsv 
+  803  ls
+  804  gnuplot
+  805  cd ..
+  806  dnf install gcc ; sudo yum install make
+  807  gnuplot
+  808  set terminal svg
+  809  Plot
+  810  plot
+  811  make check
+  812  cd src ; ./gnuplot
+  813  gnuplot
+  814  gnuplot -e
+  815  gnuplot
+  816  export DISPLAY:=0.0
+  817  XQuartz
+  818  set terminal svg
+  819  ls
+  820  mkdir src
+  821  cd src
+  822  ./gnuplot
+  823  /etc/gnuplot-5.4.4/src/gnuplot
+  824  ls
+  825  gnuplot filename.svg
+  826  export DISPLAY:=0.0
+  827  gnuplot filename.svg
+  828  ./gnuplot filename.svg
+  829  /etc/gnuplot-5.4.4/src/gnuplot filename.svg
+  830  /etc/gnuplot-5.4.4/src/gnuplot 
+  831  $pwd
+  832  echo $pwd
+  833  $shadow
+  834  $cd
+  835  /etc/gnuplot-5.4.4/src/gnuplot 
+  836  ls
+  837  cd ..
+  838  cd a3
+  839  ls
+  840  awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l
+  841  echo "+6"
+  842  echo "3"
+  843   echo "3" && awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l 
+  844   echo "3" || awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l 
+  845   echo "3" && awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l 
+  846   echo "3" ; awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l 
+  847  echo "3" > test.txt
+  848  echo "5" >> test.txt
+  849  nano test.txt
+  850  awk -F" " '( $1 == 3 ){print $0}' Limit_Count.tsv | wc -l 
+  851  nano HistogramSetup.txt
+  852  cd ..
+  853  cd src
+  854  cp a3/HistogramSetup.txt HistogramSetput.txt
+  855  cp ./a3/HistogramSetup.txt HistogramSetput.txt
+  856  cp ../a3/HistogramSetup.txt HistogramSetput.txt
+  857  ls
+  858  nano HistogramSetput.txt
+  859  ls
+  860  cd ..
+  861  awk -F"\t"  '( $6 != Null) {print $2,$6}' Orig_Tweets2.tsv | sort | uniq -c | sort | head -30
+  862  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2.tsv | sort | uniq -c | sort | head -5
+  863  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2.tsv | sort | uniq -c | sort | head -30 > Top30onReply.txt
+  864  ls
+  865  rm Top30onReply.txt
+  866  awk -F"\t"  '( $6 != Null) {print $6,$4}' Orig_Tweets2NoBot.tsv | sort | uniq -c | sort | head -30 > Top30onReply.txt
+  867  nano Top30onReply.txt
+  868  rm Top30onReply.txt
+  869  ls
+  870  rm Top3
+  871  awk '($4 != Null){print $4}' Tweets_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30 > Compare.txt
+  872  awk -F" "  '{print $2}' Top30onReply.txt | head -5
+  873  ls
+  874  awk -F" "  '{print $2}' Top30.txt | head -5
+  875  awk -F" "  '{print $1}' Top30.txt | head -5
+  876  awk -F" "  '{print $3}' Top30.txt | head -5
+  877  awk -F" "  '{print toupper($3)}' Top30.txt | head -5
+  878  ls
+  879  nano Compare2.txt
+  880  awk -F" "  '{print $2}' Compare2.txt | head -3
+  881  ls
+  882  diff A3Upper.txt A2Upper.txt
+  883  cd a3submit
+  884  ls
+  885  clear
+  886  cd ..
+  887  cd src
+  888  ls
+  889  cd ..
+  890  cd a3sbmit
+  891  cd a3submit
+  892  ls
+  893  rm HistogramOutput.svg
+  894  cp ../src/HistogramOutput.svg HistogramOutput.svg
+  895  ls
+  896  git status
+  897  git add
+  898  git add *
+  899  git commit -m 'Small change'
+  900  git push origin master
+  901  tmux new-session ws6
+  902  tmux new-session -s ws6 
+  903  nano ws6script.sh
+  904  nano getAverage.sh
+  905  chmod 777 ws6script.sh
+  906  chmod 777 getAverage.sh
+  907  ./ws6script.sh
+  908  crontab -e
+  909  crontab -l
+  910  script ws6.txt
+  911  rm ws6.txt
+  912  clear
+  913  script ws6.txt
+  914  history > cmds.log
+  915  mkdir ws6
+  916  mv cmds.log
+  917  mv cmds.log ws6
+  918  mv ws6.txt
+  919  mv ws6.txt ws6
+  920  cd ws6
+  921  ls
+  922  nano ws6.txt
+  923  git init
+  924  git add *
+  925  git commit -m "ws6"
+  926  git remote add origin https://github.com/alenba2/cs-131.git
+  927  git push -u origin master
+  928  cd ..
+  929  tmux attach -t ws6
+  930  tmux new-session -s a4
+  931  tmux attach -t a4
+  932  grep retweeted Tweets2NoBot.tsv | awk -F"\t" '{print $5}' | sed 's/^.* id=//g' | sed 's/ type=retweeted.//g' > retweets.txt
+  933  fgrep -f test_retweets.txt Orig_Tweets2NoBot.tsv | awk -F'\t' '{print $2}'  | sort |  uniq -c | sort -nr -k 1 | head -10 > 10Tweets.txt
+  934  awk -F" " '{print $2,$1}' Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 > a4/Counted_Tweets.tsv
+  935  mkdir a4
+  936  mkdir a4test
+  937  awk -F" " '{print $2,$1}' Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 > a4/Counted_Tweets.tsv
+  938  ls
+  939  rm a4
+  940  mkdir a4
+  941  awk -F" " '{print $2,$1}' Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 > a4/Counted_Tweets.tsv
+  942  cd a4
+  943  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets.tsv > Limit_Count.tsv
+  944  awk -F" " '( $1 == 3 ){print $0}' Limit_Count.tsv | wc -l > HistogramSetup.txt
+  945  awk -F" " '( $1 == 4 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  946  awk -F" " '( $1 == 5 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  947  awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  948  nano HistogramSetup.txt
+  949  grep retweeted Tweets2NoBot.tsv | awk -F"\t" '{print $5}' | sed 's/^.* id=//g' | sed 's/ type=retweeted.//g' > retweets.txt
+  950  fgrep -f test_retweets.txt Orig_Tweets2NoBot.tsv | awk -F'\t' '{print $2}'  | sort |  uniq -c | sort -nr -k 1 | head -10 > 10Tweets.txt
+  951  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Tweets2.tsv > a4/Tweet_ReplyNoBots.tsv
+  952  cd a4
+  953  mkdir a4
+  954  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Tweets2.tsv > a4/Tweet_ReplyNoBots.tsv
+  955  cd a4
+  956  awk -F"\t" '{print $0}' Tweets_ReplyNoBots.tsv | sort > Tweets_Sorted.tsv
+  957  awk -F" " '{print $2,$1}' Tweets_Sorted.tsv | sort | uniq -c | sort -nr -k 1 > Counted_Tweets.tsv
+  958  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets.tsv > Limit_Count.tsv
+  959  ls
+  960  head -1 Limit_Count.tsv
+  961  awk -F"\t" '{print $0}' Tweets_ReplyNoBots.tsv | sort > Tweets_Sorted.tsv
+  962  awk -F"\t" '{print $0}' Tweet_ReplyNoBots.tsv | sort > Tweets_Sorted.tsv
+  963  awk -F" " '{print $2,$1}' Tweets_Sorted.tsv | sort | uniq -c | sort -nr -k 1 > Counted_Tweets.tsv
+  964  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets.tsv > Limit_Count.tsv
+  965  nano Limited_Count.tsv
+  966  grep retweeted Tweets2NoBot.tsv | awk -F"\t" '{print $5}' | sed 's/^.* id=//g' | sed 's/ type=retweeted.//g' > retweets.txt
+  967  fgrep -f test_retweets.txt Orig_Tweets2NoBot.tsv | awk -F'\t' '{print $2}'  | sort |  uniq -c | sort -nr -k 1 | head -10 > 10Tweets.txt
+  968  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Tweets2.tsv > a4/Tweets_ReplyNoBots.tsv
+  969  cd a4
+  970  mkdir a4
+  971  awk -F"\t" '($2 != $6 && $6 != Null) {print $2, $6}' Tweets2.tsv > a4/Tweets_ReplyNoBots.tsv
+  972  cd a4
+  973  awk -F"\t" '{print $0}' Tweets_ReplyNoBots.tsv | sort > Tweets_Sorted.tsv
+  974  awk -F" " '{print $2,$1}' Tweets_Sorted.tsv | sort | uniq -c | sort -nr -k 1 > Counted_Tweets.tsv
+  975  awk -F" " '( $1 >= 3 ){print $0}' Counted_Tweets.tsv > Limit_Count.tsv
+  976  awk -F" " '( $1 == 3 ){print $0}' Limit_Count.tsv | wc -l > HistogramSetup.txt
+  977  awk -F" " '( $1 == 4 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  978  awk -F" " '( $1 == 5 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  979  awk -F" " '( $1 > 5 ){print $0}' Limit_Count.tsv | wc -l >> HistogramSetup.txt
+  980  nano HistogramSetup.txt
+  981  /etc/gnuplot-5.4.4/src/gnuplot
+  982  cd ..
+  983  awk -F"\t"  '( $6 != Null) {print $6,$4}' Tweets2NoBot.tsv | sort | uniq -c | sort -nr -k 1 | head -30 > Top30.txt
+  984  awk -F"\t" '($4 != Null){print toupper($4)}' Tweets2_NotBot.tsv | sort |  uniq -c | sort -nr -k 1 | head -30 > Compare2.txt
+  985  awk -F" "  '{print toupper($3)}' Top30.txt > A3Upper.txt
+  986  awk -F" "  '{print $2}' Compare2.txt > A2Upper.txt
+  987  diff A3Upper.txt A2Upper.txt
+  988  ls
+  989  sftp
+  990  sftp allen@172.31.197.164
+  991  scp 100Reviewers.txt allen@172.31.197.164:/Users/allenbaek
+  992  tmux attach -t a4
+  993  tmux new-session -n ws7
+  994  script ws7
+  995  rm ws7
+  996  clear
+  997  scirpt ws7.txt
+  998  script ws7.txt
+  999  history > log
+ 1000  cd ws7
+ 1001  's/.//g' Info.txt > InfoReduced.txt
+ 1002  sed 's/.//g' Info.txt > InfoReduced.txt
+ 1003  sed 's/;//g' Info.txt >> InfoReduced.txt
+ 1004  sed 's/.//g' Info.txt > InfoReduced.txt
+ 1005  sed 's/;//g' InfoReduced.txt > InfoReduced.txt
+ 1006  sed 's/ and //g' InfoReduced.txt > InfoReduced.txt
+ 1007  sed 's/ if //g' InfoReduced.txt > InfoReduced.txt
+ 1008  sed 's/</ </g ; s/>/> /g' InfoReduced.txt > InfoReduced.txt
+ 1009  nano InfoReduced.txt
+ 1010  sed 's/<.../>//g' Info.txt >> InfoReduced.txt 
+ 1011  sed 's/</ </g ; s/>/> /g' Info.txt > InfoReduced.txt 
+ 1012  nano InfoReduced.txt
+ 1013  cd ..
+ 1014  clear
+ 1015  mkdir ws7
+ 1016  mkdir ws7sub
+ 1017  mv ws7.txt
+ 1018  mv ws7.txt ws7sub
+ 1019  mv cmds.log ws7sub
+ 1020  ls
+ 1021  cd ws7
+ 1022  ls
+ 1023  cd ..
+ 1024  history > cmds.log
